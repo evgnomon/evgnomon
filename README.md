@@ -4,8 +4,6 @@
 Drop a message in hg@evgnomon.org .
 
 ```
-Personal:
-Personal:
 Signature key ....: 364A 3C63 EECA E167 CE8F  CF82 66D6 0E50 4F06 A426
       created ....: 2024-04-19 22:34:27
       expires: 2025-04-19
