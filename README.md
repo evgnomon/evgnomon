@@ -1,4 +1,4 @@
-- I edit source code professionally since 2003.
+- I professionally edit source code since 2003.
 - Hamed Ghasemzadeh /evgnomon
 
 Use hg@evgnomon.org
