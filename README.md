@@ -1,7 +1,7 @@
 - I edit source code professionally since 2003.
 - Hamed Ghasemzadeh /evgnomon
 
-Drop a message in hg@evgnomon.org .
+Use hg@evgnomon.org
 
 ```
 Signature key ....: 364A 3C63 EECA E167 CE8F  CF82 66D6 0E50 4F06 A426
