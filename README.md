@@ -13,8 +13,8 @@ Apt repo:
 curl https://evgnomon.org/evgnomon.asc -o - | sudo tee /etc/apt/trusted.gpg.d/evgnomon.asc > /dev/null
 sudo tee /etc/apt/sources.list.d/evgnomon.sources << EOF
 Types: deb
-URIs: https://archive.evgnomon.org/debian
-Suites: $(lsb_release -cs)
+URIs: https://archive.evgnomon.org/$(. /etc/os-release && echo "$ID")
+Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/evgnomon.asc
 EOF
