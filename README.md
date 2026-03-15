@@ -7,4 +7,17 @@ Encryption key....: 8E80 76ED B64E 9F9F 1A89  0609 E6EA ECFB 9A42 C2C7
       created ....: 2024-04-19 22:33:07
 ```
 
+Apt repo:
+
+```
+curl https://evgnomon.org/evgnomon.asc -o - | sudo tee /etc/apt/trusted.gpg.d/evgnomon.asc > /dev/null
+sudo tee /etc/apt/sources.list.d/evgnomon.sources << EOF
+Types: deb
+URIs: https://archive.evgnomon.org/debian
+Suites: $(lsb_release -cs)
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/evgnomon.asc
+EOF
+```
+
 More info: https://evgnomon.org/
